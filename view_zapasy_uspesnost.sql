@@ -16,7 +16,7 @@ GO
 							Pocet vyher viteze (kumul)
 							Uspesnost viteze (kumul)
 
-			Ñezobrazuje:	Legy CPU oponenta
+			Ã‘ezobrazuje:			Legy CPU oponenta
 							Odehrane legy proti CPU oponentovi
 							Jsem lenoch 
 */
