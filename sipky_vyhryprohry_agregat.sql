@@ -1,6 +1,10 @@
 USE sipky;
 GO
 
+
+CREATE VIEW vyhry_prohry_agregat
+AS
+
 WITH t AS (
 SELECT id_zapas, player1 AS player, result
 FROM zapas
@@ -26,4 +30,4 @@ GROUP BY p.nickname, typ.typ_hry
 )
 SELECT *, CONCAT(CAST(vyhry*100.00/zapasy AS numeric(5,2)), ' %') AS uspesnost
 FROM tt
-ORDER BY nickname, typ_hry
+;
